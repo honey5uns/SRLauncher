@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248" prefWidth="400" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="248" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="400">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <TextField alignment="CENTER" editable="true" focusTraversable="false" id="playerNameField" layoutX="8" layoutY="8" opacity="0.90243902439024" prefColumnCount="12" prefHeight="40" prefWidth="256" promptText="Введите никнейм" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="TEXT" enabled="1" id="data-playerNameField" tooltipText="Этот ник будет отображатся у вас в игре. По нику проходит авторизация на сервере." visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="8" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="startButtonCreate" layoutX="8" layoutY="104" opacity="0.85365853658537" prefHeight="40" prefWidth="384" styleClass="x-flat-button " text="Запустить сборку AeroCogWork" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-startButtonCreate" tooltipText="Версия: 1.20.1" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="8" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="startButtonCS" layoutX="8" layoutY="56" opacity="0.85365853658537" prefHeight="40" prefWidth="384" styleClass="x-flat-button " text="Запустить сборку TicketToHell" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-startButtonCS" tooltipText="Версия: 1.20.1" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/360_F_558869548_fNhu4v5PmCP2BlVCITt7hGnWdKtMP1KE.jpg" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="8" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="closeButton" layoutX="8" layoutY="200" opacity="0.85365853658537" prefHeight="40" prefWidth="384" styleClass="x-flat-button " text="Закрыть лаунчер" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-closeButton" tooltipText="1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="8" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="linkButtonTG" layoutX="208" layoutY="152" opacity="0.85365853658537" prefHeight="40" prefWidth="186" styleClass="x-flat-button " text="Наш Telegram" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-linkButtonTG" tooltipText="Приглашение на канал Telegram" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="8" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="linkButtonDS" layoutX="8" layoutY="152" opacity="0.85365853658537" prefHeight="40" prefWidth="186" styleClass="x-flat-button " text="Наш Discord" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-linkButtonDS" tooltipText="Приглашение на сервер Discord" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="2" clickColor="#000000" color="#141414" contentDisplay="LEFT" ellipsisString="" focusTraversable="false" graphicTextGap="4" hoverColor="#333333" id="buttonSave" layoutX="272" layoutY="8" opacity="0.90123456790123" prefHeight="40" prefWidth="120" styleClass="x-flat-button " text="Сохранить" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Minecraft Rus Regular" size="16"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-buttonSave" tooltipText="Сохранить никнейм" visible="1"/>
+  </children>
+</AnchorPane>

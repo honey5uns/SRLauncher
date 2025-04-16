@@ -1,0 +1,9 @@
+/** Font from src file**/
+@font-face {
+    -fx-font-family: Minecraft Rus;
+    src: url('/.data/minecraft.ttf');
+}
+
+.my-font1{
+    -fx-font-family: 'Minecraft Rus';
+}       
