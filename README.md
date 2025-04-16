@@ -54,8 +54,8 @@ TicketToHell:
 СООБЩЕСТВО
 
 Присоединяйтесь к нашим платформам:
-- Discord-сервер: https://discord.gg/ваша_ссылка
-- Telegram-канал: https://t.me/ваша_ссылка
+- Discord-сервер: https://discord.gg/3fCZ7AwDTB
+- Telegram-канал: https://t.me/honeysnusich
 
 ---
 ПРИМЕЧАНИЕ
